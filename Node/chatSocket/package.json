@@ -1,0 +1,21 @@
+{
+  "name": "chatsocket",
+  "version": "0.0.2",
+  "description": "Esto es un chat básico para el curso conviertete en DevOPS con nodejs en tutellus",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.9.0",
+    "socket.io": "^1.1.0"
+  },
+  "keywords": [
+    "tutellus",
+    "chat",
+    "tiempo-real"
+  ],
+  "author": "goalkeeper112",
+  "license": "MIT"
+}

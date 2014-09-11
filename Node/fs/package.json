@@ -1,0 +1,17 @@
+{
+  "name": "readme-generator-gk",
+  "version": "0.0.1",
+  "description": "Este es un modulo para el curso de nodejs",
+  "main": "fileSys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "filesystem"
+  ],
+  "author": "goalkeeper112",
+  "license": "MIT",
+  "dependencies": {
+    "prompt": "^0.2.13"
+  }
+}

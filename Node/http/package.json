@@ -1,0 +1,22 @@
+{
+  "name": "httpServer",
+  "version": "0.0.1",
+  "description": "Esto es mi primer servidor web con nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "htpp"
+  ],
+  "author": "goalkeeper112",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-livereload": "^2.1.1"
+  },
+  "dependencies": {
+    "gulp-connect": "^2.0.6"
+  }
+}
