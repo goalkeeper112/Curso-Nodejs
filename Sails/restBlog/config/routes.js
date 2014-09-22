@@ -33,13 +33,15 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    controller: 'PostController',
-    action: 'read'
+    view: 'posts/posts'
   },
 
-  'GET /post': {
-    controller: 'PostController',
-    action: 'read'
+  '/login': {
+    view: 'auth/login'
+  },
+
+  '/post/nuevo': {
+    view: 'posts/crear'
   }
 
   /***************************************************************************

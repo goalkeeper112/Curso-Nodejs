@@ -1,0 +1,18 @@
+<div class="container" ng-controller="acciones">
+	<div class="jumbotron">
+		<div class="page-header text-center">
+			<h1>Escribe tú post</h1>
+		</div>
+		<div class="row form-group">
+			<form ng-submit="crearPost()">
+				<label class="label label-lf label-info">Titulo</label>
+				<input type="text" ng-model="titulo"><br>
+				<label class="label label-lg label-info">Autor</label>
+				<input type="text" ng-model="autor"><br>
+				<label class="label label-lg label-info">Contenido</label>
+				<input type="text" ng-model="contenido"><br>
+				<input type="submit" class="btn btn-lg btn-success">
+			</form>
+		</div>
+	</div>
+</div>
